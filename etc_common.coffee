@@ -10,8 +10,6 @@ Etc.noLineBreaks = (str) ->
   noStr = str.replace(/(\r\n|\n|\r)/gm, '')
   return noStr
 
-
-
 Etc.pushArray = (arr, arr2) ->
   arr.push.apply(arr, arr2)
   return arr
