@@ -3,7 +3,6 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  //1api.use([''], 'client');
 
   api.use('jquery', 'client');
   api.use('templating', 'client');
